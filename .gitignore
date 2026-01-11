@@ -1,0 +1,50 @@
+############################
+# Dependencies
+############################
+node_modules/
+
+############################
+# Environment & secrets
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Experiment outputs
+############################
+logs/*
+!logs/.gitkeep
+
+backup_logs/
+
+state/*
+!state/.gitkeep
+
+plots/*
+!plots/.gitkeep
+
+############################
+# Large exports / datasets
+############################
+*.tar.gz
+*.zip
+
+############################
+# OS / Editor
+############################
+.DS_Store
+.vscode/
+.idea/
+
+############################
+# Node / npm
+############################
+npm-debug.log*
+yarn-error.log*
+
+############################
+# Python (plots)
+############################
+__pycache__/
+*.pyc
